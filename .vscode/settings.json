@@ -1,3 +1,47 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "update.mode": "none",
+    "extensions.autoUpdate": false,
+    "telemetry.telemetryLevel": "off",
+    "workbench.startupEditor": "none",
+
+    "editor.minimap.enabled": false,
+    "editor.smoothScrolling": false,
+    "editor.cursorBlinking": "solid",
+    "workbench.list.smoothScrolling": false,
+
+    "java.server.launchMode": "Standard",
+    "java.import.maven.enabled": false,
+    "java.import.gradle.enabled": false,
+    "java.autobuild.enabled": false,
+    "java.debug.settings.onBuildFailureProceed": true,
+
+    "chat.editor.visibility": "hidden",
+    "workbench.panel.chat.view.visibility": "hidden",
+    "github.copilot.enable": { "*": false },
+    
+    "editor.codeLens": false,
+    "editor.breadcrumbs.enabled": false,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "java.referencesCodeLens.enabled": false,
+    "java.implementationsCodeLens.enabled": false,
+
+    "java.jdt.ls.vmargs": "-Xmx512m -XX:+UseSerialGC",
+    
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.class": true
+    },
+    
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.class": true
+    },
+    
+    "terminal.integrated.gpuAcceleration": "off"
 }
