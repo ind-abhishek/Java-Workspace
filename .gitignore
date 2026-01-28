@@ -1,4 +1,6 @@
 *.class
-*.vscode
-*..git-credentials
-
+.vscode/
+.git-credentials
+*.log
+bin/
+obj/
